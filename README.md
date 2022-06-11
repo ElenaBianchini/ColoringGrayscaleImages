@@ -39,6 +39,7 @@ Andando a tracciare l'andamento della funzione funzione di costo durante tutto i
 Se però si vanno a studiare i valori medi dei costi durante la fase di allenamento presenti sul codice, si può notare che questi sono in leggera diminuzione. Sarebbe un buon esperimento quello di provare ad aumentare le epoche di allenamento per vedere se le immagini restituite rispecchierebbero maggiormente quelle reali.
 
 ## Risultati ottenuti
-
+La seguente rappresenta un esempio di immagine ricolorata attraverso la rete allenata:
+> immagine
 
 
