@@ -3,6 +3,13 @@
 ## Scopo
 Lo scopo del progetto è quello di realizzare una rete neurale convoluzionale in grado di colorare automaticamente le immagini in scala di grigi. 
 
+## Strumenti utilizzati
+La soluzione proposta è stata realizzata attraverso un blocco note di *Google Colab*, utilizzando:
+- Python 3.7
+- Pytorch 1.11.0
+- Diverse librerie di Python, come Matplotlib o NumPy
+- Weights & Biases (per tracciare l'andamento della rete durante la fase di allenamento
+
 ## Dati
 Viene utilizzato parte del dataset Places205, formato da 238.136 immagini di dimensioni 256x256.
 Nel progetto, il train set è composto da 8.000 immagini, il validation set da 2.000 immagini e il test set da 1.000 immagini. 
