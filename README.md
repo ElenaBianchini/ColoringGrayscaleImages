@@ -35,7 +35,9 @@ Presenta quindi:
 L'obiettivo ultimo della rete è quello di calcolare, a partire dall'immagine in scala di grigi, i canali *AB* dell'immagine, rappresentata in spazio di colore LAB. 
 
 Viene allora usato l'*errore quadratico medio* come funzione di costo, confrontando il valore predetto con quello reale.
-![alt text](https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/MSE.png)
+<p align="center">
+  <img src="https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/MSE.png">
+</p>
 
 Infine viene ottimizzata la funzione di costo attraverso l'ottimizzatore *Adam*, con un learning rate di 10<sup>-5</sup>.
 
