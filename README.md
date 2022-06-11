@@ -17,7 +17,7 @@ B: identifica se il colore del pixel tende al blu (valori negativi) o al giallo 
 ## Soluzione proposta
 Il modello proprosto è caratterizzato da un'architettura di questo tipo:
 
-> immagine
+![alt text](https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/model.jpg)) 
 
 Presenta quindi:
 - un **encoder** realizzato a partire dal modello della ResNet18, che viene interrotta al sesto livello. La ResNet18 è una rete per la classificazione di immagini composta da 18 livelli e connessioni residue. Viene utilizzata nel progetto per estrarre delle informazioni semantiche dalle immagini di input.
