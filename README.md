@@ -40,6 +40,7 @@ Se però si vanno a studiare i valori medi dei costi durante la fase di allename
 
 ## Risultati ottenuti
 La seguente rappresenta un esempio di immagine ricolorata attraverso la rete allenata:
+
 ![alt text](https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/esempio.png)
 
 
