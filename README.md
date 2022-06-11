@@ -3,9 +3,9 @@
 ## Scopo
 Lo scopo del progetto è quello di realizzare una rete neurale convoluzionale in grado di colorare automaticamente le immagini in scala di grigi. 
 
-## Dati 
-Viene utilizzato parte del dataset Places205, formato da 238<sup>.</sup>136 immagini di dimensioni 256x256. 
-Nel progetto il train set è composto da 8<sup>.</<sup>000 immagini, il validation set da 2<sup>.</sup>000 immagini e il test set da 1<sup>.</sup>000 immagini. 
+## Dati
+Viene utilizzato parte del dataset Places205, formato da 238.136 immagini di dimensioni 256x256.
+Nel progetto, il train set è composto da 8.000 immagini, il validation set da 2.000 immagini e il test set da 1.000 immagini. 
 
 Tutte le immagini sono ridimensionate a 22x224 e preprocessate per ricavarne il formato LAB, a partire da quello RGB. Le immagini in spazio di colore LAB sono composte da tre canali:
 1. L: identifica la luminosità di ogni pixel attraverso un valore tra [0,100]
@@ -25,10 +25,20 @@ Presenta quindi:
 
 L'obiettivo ultimo della rete è quello di calcolare, a partire dall'immagine in scala di grigi, i canali *AB* dell'immagine, rappresentata in spazio di colore LAB. 
 
-Viene allora usato l'errore quadratico medio come funzione di costo, confrontando il valore predetto con quello reale.
+Viene allora usato l'*errore quadratico medio* come funzione di costo, confrontando il valore predetto con quello reale.
 > immagine della formula MSE 
 
-Infine viene ottimizzata la funzione di costo attraverso l'ottimizzatore Adam, con un learning rate di 10<sup>-5</sup>.
+Infine viene ottimizzata la funzione di costo attraverso l'ottimizzatore *Adam*, con un learning rate di 10<sup>-5</sup>.
+
+## Allenamento
+La rete è stata allenata per un totale di 6 epoche, sia sul train-set che sul validation-set. 
+
+Andando a tracciare l'andamento della funzione funzione di costo durante tutto il tempo di allenamento, attraverso il software **Weights & Biases**, si ottiene un grafico di questo tipo:
+> immagine grafico
+
+Se però si vanno a studiare i valori medi dei costi durante la fase di allenamento presenti sul codice, si può notare che questi sono in leggera diminuzione. Sarebbe un buon esperimento quello di provare ad aumentare le epoche di allenamento per vedere se le immagini restituite rispecchierebbero maggiormente quelle reali.
+
+## Risultati ottenuti
 
 
 
