@@ -28,7 +28,7 @@ L'obiettivo ultimo della rete è quello di calcolare, a partire dall'immagine in
 Viene allora usato l'errore quadratico medio come funzione di costo, confrontando il valore predetto con quello reale.
 > immagine della formula MSE 
 
-Infine viene ottimizzata la funzione di costo attraverso l'ottimizzatore Adam, con un learning rate di 10^-5 
+Infine viene ottimizzata la funzione di costo attraverso l'ottimizzatore Adam, con un learning rate di 10<sup>-5</sup>
 
 
 
