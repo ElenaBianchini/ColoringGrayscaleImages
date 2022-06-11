@@ -8,7 +8,7 @@ La soluzione proposta è stata realizzata attraverso un blocco note di *Google C
 - Python 3.7
 - Pytorch 1.11.0
 - Diverse librerie di Python, come Matplotlib o NumPy
-- Weights & Biases (per tracciare l'andamento della rete durante la fase di allenamento
+- Weights & Biases (per tracciare l'andamento della rete durante la fase di allenamento)
 
 ## Dati
 Viene utilizzato parte del dataset Places205, formato da 238.136 immagini di dimensioni 256x256.
