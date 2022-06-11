@@ -19,7 +19,7 @@ L: identifica la luminosità di ogni pixel attraverso un valore tra [0,100]
 A: identifica se il colore del pixel tende al verde (valori negativi) o al rosso (valori positivi), attraverso il range [-128,127]
 B: identifica se il colore del pixel tende al blu (valori negativi) o al giallo (valori positivi), attraverso il range [-128,127]
 
-![spazio di colore](https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/spazio%20di%20colore.jpg){:height="400px"} 
+![spazio di colore](https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/spazio%20di%20colore.jpg {:height="400px"}) 
 
 ## Soluzione proposta
 Il modello proprosto è caratterizzato da un'architettura di questo tipo:
