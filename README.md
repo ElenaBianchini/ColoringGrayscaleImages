@@ -7,7 +7,7 @@ Lo scopo del progetto è quello di realizzare una rete neurale convoluzionale in
 Viene utilizzato parte del dataset Places205, formato da 238.136 immagini di dimensioni 256x256.
 Nel progetto, il train set è composto da 8.000 immagini, il validation set da 2.000 immagini e il test set da 1.000 immagini. 
 
-Tutte le immagini sono ridimensionate a 22x224 e preprocessate per ricavarne il formato LAB, a partire da quello RGB. Le immagini in spazio di colore LAB sono composte da tre canali:
+Tutte le immagini sono ridimensionate a 224x224 e preprocessate per ricavarne il formato LAB, a partire da quello RGB. Le immagini in spazio di colore LAB sono composte da tre canali:
 1. L: identifica la luminosità di ogni pixel attraverso un valore tra [0,100]
 2. A: identifica se il colore del pixel tende al verde (valori negativi) o al rosso (valori positivi), attraverso il range [-128,127]
 3. B: identifica se il colore del pixel tende al blu (valori negativi) o al giallo (valori positivi), attraverso il range [-128,127]
