@@ -15,9 +15,9 @@ Viene utilizzato parte del dataset Places205, formato da 238.136 immagini di dim
 Nel progetto, il train set è composto da 8.000 immagini, il validation set da 2.000 immagini e il test set da 1.000 immagini. 
 
 Tutte le immagini sono ridimensionate a 224x224 e preprocessate per ricavarne il formato LAB, a partire da quello RGB. Le immagini in spazio di colore LAB sono composte da tre canali:
-> L: identifica la luminosità di ogni pixel attraverso un valore tra [0,100]
-> A: identifica se il colore del pixel tende al verde (valori negativi) o al rosso (valori positivi), attraverso il range [-128,127]
-> B: identifica se il colore del pixel tende al blu (valori negativi) o al giallo (valori positivi), attraverso il range [-128,127]
+- L: identifica la luminosità di ogni pixel attraverso un valore tra [0,100]
+- A: identifica se il colore del pixel tende al verde (valori negativi) o al rosso (valori positivi), attraverso il range [-128,127]
+- B: identifica se il colore del pixel tende al blu (valori negativi) o al giallo (valori positivi), attraverso il range [-128,127]
 
 <p align="center">
   <img width="500" src="https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/spazio%20di%20colore.jpg">
