@@ -8,9 +8,9 @@ Viene utilizzato parte del dataset Places205, formato da 238.136 immagini di dim
 Nel progetto, il train set è composto da 8.000 immagini, il validation set da 2.000 immagini e il test set da 1.000 immagini. 
 
 Tutte le immagini sono ridimensionate a 224x224 e preprocessate per ricavarne il formato LAB, a partire da quello RGB. Le immagini in spazio di colore LAB sono composte da tre canali:
-1. L: identifica la luminosità di ogni pixel attraverso un valore tra [0,100]
-2. A: identifica se il colore del pixel tende al verde (valori negativi) o al rosso (valori positivi), attraverso il range [-128,127]
-3. B: identifica se il colore del pixel tende al blu (valori negativi) o al giallo (valori positivi), attraverso il range [-128,127]
+L: identifica la luminosità di ogni pixel attraverso un valore tra [0,100]
+A: identifica se il colore del pixel tende al verde (valori negativi) o al rosso (valori positivi), attraverso il range [-128,127]
+B: identifica se il colore del pixel tende al blu (valori negativi) o al giallo (valori positivi), attraverso il range [-128,127]
 
 > immagine spazio di colore
 
@@ -31,12 +31,12 @@ Viene allora usato l'*errore quadratico medio* come funzione di costo, confronta
 Infine viene ottimizzata la funzione di costo attraverso l'ottimizzatore *Adam*, con un learning rate di 10<sup>-5</sup>.
 
 ## Allenamento
-La rete è stata allenata per un totale di 6 epoche, sia sul train-set che sul validation-set. 
+La rete è stata allenata per un totale di 6 epoche. 
 
-Andando a tracciare l'andamento della funzione funzione di costo durante tutto il tempo di allenamento, attraverso il software **Weights & Biases**, si ottiene un grafico di questo tipo:
+Andando a tracciare l'andamento della funzione di costo durante tutto il tempo di allenamento, attraverso il software **Weights & Biases**, si ottiene un grafico di questo tipo:
 > immagine grafico
 
-Se però si vanno a studiare i valori medi dei costi durante la fase di allenamento presenti sul codice, si può notare che questi sono in leggera diminuzione. Sarebbe un buon esperimento quello di provare ad aumentare le epoche di allenamento per vedere se le immagini restituite rispecchierebbero maggiormente quelle reali.
+Se però si vanno a studiare i valori medi dei costi durante la fase di allenamento presenti sul codice, si può notare che questi sono in leggera decrescita. Sarebbe un buon esperimento quello di provare ad aumentare le epoche di allenamento per vedere se le immagini restituite rispecchierebbero maggiormente quelle reali.
 
 ## Risultati ottenuti
 La seguente rappresenta un esempio di immagine ricolorata attraverso la rete allenata:
