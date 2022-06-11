@@ -12,12 +12,12 @@ L: identifica la luminosità di ogni pixel attraverso un valore tra [0,100]
 A: identifica se il colore del pixel tende al verde (valori negativi) o al rosso (valori positivi), attraverso il range [-128,127]
 B: identifica se il colore del pixel tende al blu (valori negativi) o al giallo (valori positivi), attraverso il range [-128,127]
 
-> immagine spazio di colore
+![alt text](https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/spazio%20di%20colore.jpg) 
 
 ## Soluzione proposta
 Il modello proprosto è caratterizzato da un'architettura di questo tipo:
 
-> immagine
+![alt text](https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/model.jpg)
 
 Presenta quindi:
 - un **encoder** realizzato a partire dal modello della ResNet18, che viene interrotta al sesto livello. La ResNet18 è una rete per la classificazione di immagini composta da 18 livelli e connessioni residue. Viene utilizzata nel progetto per estrarre delle informazioni semantiche dalle immagini di input.
@@ -26,7 +26,7 @@ Presenta quindi:
 L'obiettivo ultimo della rete è quello di calcolare, a partire dall'immagine in scala di grigi, i canali *AB* dell'immagine, rappresentata in spazio di colore LAB. 
 
 Viene allora usato l'*errore quadratico medio* come funzione di costo, confrontando il valore predetto con quello reale.
-> immagine della formula MSE 
+![alt text](https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/MSE.png)
 
 Infine viene ottimizzata la funzione di costo attraverso l'ottimizzatore *Adam*, con un learning rate di 10<sup>-5</sup>.
 
