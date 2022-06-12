@@ -55,4 +55,4 @@ La seguente rappresenta un esempio di immagine ricolorata attraverso la rete all
 ![alt text](https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/esempio.png)
 
 ## Test
-Per testare il funzionamento della rete caricare un'immagine nel file Test.jpynb
+Per testare il funzionamento della rete caricare un'immagine nel file Test.ipynb
