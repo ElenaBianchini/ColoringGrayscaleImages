@@ -45,7 +45,7 @@ Infine viene ottimizzata la funzione di costo attraverso l'ottimizzatore *Adam*,
 La rete è stata allenata per un totale di 6 epoche. 
 
 Andando a tracciare l'andamento della funzione di costo durante tutto il tempo di allenamento, attraverso il software **Weights & Biases**, si ottiene un grafico di questo tipo:
-![alt text](https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/Graficowandb.png)
+![alt text](https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/loss.png)
 
 Se però si vanno a studiare i valori medi dei costi durante la fase di allenamento presenti sul codice, si può notare che questi sono in leggera decrescita. Sarebbe un buon esperimento quello di provare ad aumentare le epoche di allenamento per vedere se le immagini restituite rispecchiano maggiormente quelle reali.
 
