@@ -42,7 +42,7 @@ Viene allora usato l'*errore quadratico medio* come funzione di costo, confronta
 Infine viene ottimizzata la funzione di costo attraverso l'ottimizzatore *Adam*, con un learning rate di 10<sup>-5</sup>.
 
 ## Allenamento
-La rete è stata allenata per un totale di 6 epoche. 
+La rete è stata allenata per un totale di 8 epoche. 
 
 Andando a tracciare l'andamento della funzione di costo durante tutto il tempo di allenamento, attraverso il software **Weights & Biases**, si ottiene un grafico di questo tipo:
 ![alt text](https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/loss.png)
