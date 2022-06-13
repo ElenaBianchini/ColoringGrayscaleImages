@@ -47,12 +47,15 @@ La rete è stata allenata per un totale di 8 epoche.
 Andando a tracciare l'andamento della funzione di costo durante tutto il tempo di allenamento, attraverso il software **Weights & Biases**, si ottiene un grafico di questo tipo:
 ![alt text](https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/loss.png)
 
-Se però si vanno a studiare i valori medi dei costi durante la fase di allenamento presenti sul codice, si può notare che questi sono in leggera decrescita. Sarebbe un buon esperimento quello di provare ad aumentare le epoche di allenamento per vedere se le immagini restituite rispecchiano maggiormente quelle reali.
 
 ## Risultati ottenuti
 La seguente rappresenta un esempio di immagine ricolorata attraverso la rete allenata:
 
 ![alt text](https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/esempio.png)
+
+Per ottenere risultati più soddisfacenti, sarebbe un buon esperimento quello di:
+- aumentare le epoche di allenamento; 
+- aumentare le immagini del train-set, in modo che la rete possa analizzare più dati. 
 
 ## Test
 Per testare il funzionamento della rete caricare un'immagine nel file Test.ipynb
