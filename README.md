@@ -53,7 +53,7 @@ La seguente rappresenta un esempio di immagine ricolorata attraverso la rete all
 
 ![alt text](https://github.com/ElenaBianchini/ColoringGrayscaleImages/blob/main/imgs/esempio.png)
 
-Per ottenere risultati più soddisfacenti, sarebbe un buon esperimento quello di:
+Per ottenere risultati più soddisfacenti, potrebbe essere un buon esperimento quello di:
 - aumentare le epoche di allenamento; 
 - aumentare le immagini del train-set, in modo che la rete possa analizzare più dati. 
 
